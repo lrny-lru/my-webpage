@@ -12,6 +12,8 @@ import {
 import './App.css';
 
 function App() {
+
+  
   return (
     <HashRouter>
       <div>
@@ -25,7 +27,7 @@ function App() {
               <li><NavLink exact to="/">Home</NavLink></li>
               <li ><NavLink to="/topics">stuff</NavLink></li>
              
-          ////           <SearchBar setSearchTerm={this.setSearchTerm} />
+          
             </ul>
 
 
@@ -40,6 +42,8 @@ function App() {
       </div>
     </HashRouter>
   );
+  
 }
 
+//          <SearchBar setSearchTerm={this.setSearchTerm} />
 export default App;
